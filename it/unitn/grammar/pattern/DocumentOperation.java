@@ -19,7 +19,7 @@ public class DocumentOperation {
 	        try
 	        {
 	        	String result = "";
-	            file = new File("/Users/tongli/Desktop/REposter/poster.docx");
+	            file = new File("/Users/tongli/Desktop/REposter/poster.doc");
 	            
 	            if (file.getAbsolutePath().endsWith("doc")){
 	            	result = readDocFile(file.getAbsolutePath());
